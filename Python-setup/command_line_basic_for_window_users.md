@@ -1,4 +1,4 @@
-### 1. How to get current directory ?  
+1. How to get current directory ?  
 `cd`  
 2. how to show all files and folders in current directory ?  
 `dir`  
