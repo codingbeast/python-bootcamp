@@ -1,0 +1,25 @@
+goto obs  filter > noise gat
+	close threshold -27.00 db
+	open threshold -20.00 db
+	attack time 25 ms
+	hold time 200 ms 
+	release time 150 ms
+goto obs filter > noise suppression
+	rnnoise
+	
+	
+open audacity >
+	select sample
+	goto effect > noise reduction
+	get profile and ok
+	noise reduciton db 12
+	sensitivity 6.00
+	frequency 3
+	goto effect > normalize
+	tick remove dc offset
+	tick remove normalize peak amplitude -1.0 db
+	Ok
+	
+
+
+17%
