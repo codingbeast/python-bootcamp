@@ -1,3 +1,4 @@
+## String methods
 | method | description    |
 | ---------|:---------|
 | capitalize()| 	Converts the first character to upper case    |
