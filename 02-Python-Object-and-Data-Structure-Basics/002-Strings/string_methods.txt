@@ -38,8 +38,7 @@ translate(dict)	Returns a translated string
 partition(value:str)	Returns a tuple where the string is parted into three parts  
 replace(old, new, count)	Returns a string where a specified value is replaced with a specified value  
 rfind(value, start, end)	Searches the string for a specified value and returns the last position of where it was found, not found = -1  
-rindex()	Searches the string for a specified value and returns the last position of where it was found  
-same as rfind()  
+rindex()	Searches the string for a specified value and returns the last position of where it was found  same as rfind()  
 rjust(length , character)	Returns a right justified version of the string  
 rpartition(value:str)	Returns a tuple where the string is parted into three parts  
 rsplit(seprater, maxsplit)	Splits the string at the specified separator, and returns a list  
