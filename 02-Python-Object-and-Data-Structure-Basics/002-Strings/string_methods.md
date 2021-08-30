@@ -3,7 +3,7 @@
 | capitalize()| 	Converts the first character to upper case    |
 | casefold()	| Converts string into lower case    |
 | center(length:int, character:str)	| Returns a centered string    |
-| character = replace with space, length = total length of string    ||
+| <td colspan=2>character = replace with space, length = total length of string</td>    |
 | count(value: int, start: int, end: int)| 	Returns the number of times a specified value occurs in a string    |
 | string.encode(encoding=encoding, errors=errors)| 	Returns an encoded version of the string    |
 | 'backslashreplace'	- uses a backslash instead of the character that could not be encoded    |
