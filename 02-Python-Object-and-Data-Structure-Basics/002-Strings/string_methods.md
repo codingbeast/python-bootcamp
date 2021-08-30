@@ -6,13 +6,13 @@
 | <td colspan=2>character = replace with space, length = total length of string</td>    |
 | count(value: int, start: int, end: int)| 	Returns the number of times a specified value occurs in a string    |
 | string.encode(encoding=encoding, errors=errors)| 	Returns an encoded version of the string    |
-| 'backslashreplace'	- uses a backslash instead of the character that could not be encoded    |
-| 'ignore'	- ignores the characters that cannot be encoded    |
-| 'namereplace'	- replaces the character with a text explaining the character    |
-| 'strict'	- Default, raises an error on failure    |
-| 'replace'	- replaces the character with a questionmark    |
-| 'xmlcharrefreplace'	- replaces the character with an xml character    |
-| 'encoding' - utf-8, ascci, example error : Ståle    |
+| <td colspan=2>'backslashreplace'	- uses a backslash instead of the character that could not be encoded </td>   |
+| <td colspan=2>'ignore'	- ignores the characters that cannot be encoded  </td>  |
+| <td colspan=2>'namereplace'	- replaces the character with a text explaining the character </td>   |
+| <td colspan=2>'strict'	- Default, raises an error on failure  </td>  |
+| <td colspan=2>'replace'	- replaces the character with a questionmark  </td>  |
+| <td colspan=2>'xmlcharrefreplace'	- replaces the character with an xml character </td>   |
+| <td colspan=2>'encoding' - utf-8, ascci, example error : Ståle</td>    |
 | endswith(value: str, start : int, end: int)	| Returns true if the string ends with the specified value    |
 | expandtabs(tabsize : int)	| Sets the tab size of the string    |
 | find(value:str, start: int, end: int)	| Searches the string for a specified value and returns the position of where it was found    |
@@ -21,7 +21,7 @@
 | isalnum()	| Returns True if all characters in the string are alphanumeric [a-z][0-9]    |
 | isalpha()	| Returns True if all characters in the string are in the alphabet[a-z]    |
 | isascii()	| Returns True if all characters in the string are ascii characters    |
-| list : https://www.w3schools.com/charsets/ref_html_ascii.asp    |
+| <td colspan=2>list : https://www.w3schools.com/charsets/ref_html_ascii.asp </td>   |
 | isdecimal()| 	Returns True if all characters in the string are decimals [0-9] example number : \u0033    |
 | isdigit()	| Returns True if all characters in the string are digits [0-9] example number : \u00B2    |
 | isidentifier()| 	Returns True if the string is an identifier valid veriable or identifyer    |
