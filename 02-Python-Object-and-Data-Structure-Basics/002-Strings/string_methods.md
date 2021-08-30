@@ -1,4 +1,4 @@
-method | description  |
+| method | description  |
 | capitalize()| 	Converts the first character to upper case  |
 | casefold()	| Converts string into lower case  |
 | center(length:int, character:str)	| Returns a centered string  |
